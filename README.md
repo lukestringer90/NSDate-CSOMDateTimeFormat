@@ -9,3 +9,9 @@ NSString *csomDateTime = [[NSDate date] CSOMDateTimeFormat];
 ```
 
 The date `2012-10-03 18:54:48 +0000` yields `634848872888416640`.
+
+---
+
+### Author
+
+Follow me on twitter: [lukestringer90](http://twitter.com/lukestringer90)
