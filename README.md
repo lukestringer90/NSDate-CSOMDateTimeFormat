@@ -1,7 +1,13 @@
 NSDate CSOMDateTimeFormat
 =========================
 
-Category to generate a CSOM DateTime string representation of an NSDate instance.
+Category to generate a CSOM DateTime string representation (used in .Net) of an NSDate instance.
+
+CSOM DateTime format defined by Microsoft as:
+> The number of 100-nanosecond intervals that have elapsed since 12:00 A.M., January 1, 0001
+
+[MSDN documentation](http://msdn.microsoft.com/en-us/library/dd948679).
+
 
 ## Usage
 ```

@@ -11,6 +11,7 @@
 
 // Returns the date in CSOM DateTime format (used in C#)
 // Defined as: the number of 100-nanosecond intervals that have elapsed since 12:00 A.M., January 1, 0001
+// MSDN documentation: http://msdn.microsoft.com/en-us/library/dd948679
 - (NSString *)CSOMDateTimeFormat {
     // Make a date representing 12:00 A.M., January 1, 0001
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
